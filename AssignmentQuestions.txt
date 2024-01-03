@@ -1,0 +1,60 @@
+Assignment 1: 
+
+https://exceljet.net/articles/download-coronavirus-data-to-excel
+
+Above is the  example of the dataset in excel for your first assignment .Open the link and download the datastet. And complete the task using pandas
+
+1.Organizes the dataset in form of a two-dimensional data structure?
+
+2. Check if data has duplicate and if exist remove the duplicate ?
+
+3. Show last 100 row in new data-frames  and sort the data in descending order for based on the death rate of the dataset ?
+_____________________________________________________________________________________________________________________________________
+
+Assignment 2:
+
+Consider the Database schema with two tables
+-Employee Table 
+	coln - emp_Id(PK),emp_name,dept_id,sal
+-department table
+	coln - dept_id(pk),dept_name
+
+Add some data in both table and create table data based on the below sql requirements 
+
+1. Write the query to retrieve all name of employee from table who belong to IT dept?
+
+2. Sort the emp_name and sal from finance dept and also sort by desc order?
+
+3.Cal the avg sal of all emp ?
+
+4. Retrive emp name and dept name from both Employee & department?
+
+5.Display all department name along with count of employee in each dept ,even if there are no employee in some department
+
+6. query to find second highest sal in each department ?
+
+7. Rank employee based on their sal within each department ?
+
+As we have Employee data in the Mysql connection .Create the API connect with MySql using Python. And display the data of the based on the Employee ID in the api gateway.
+______________________________________________________________________________________________________________________________________
+
+Assignment 3:
+
+Streamlit and dbt installation
+______________________________________________________________________________________________________________________________________
+
+Assignment 4:
+
+streamlit understanding
+______________________________________________________________________________________________________________________________________
+
+Assignment 5: 
+
+streamlit covid dataset display and modifications
+______________________________________________________________________________________________________________________________________
+
+Assignment 6: 
+
+As we have Employee data in the Mysql connection .Create the API connect with MySql using Python. And display the data of the based on the Employee ID in the api gateway.
+______________________________________________________________________________________________________________________________________
+

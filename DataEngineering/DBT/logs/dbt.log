@@ -1,0 +1,106 @@
+[0m08:59:39.016564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC5AC4B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC89C7A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC89C7790>]}
+
+
+============================== 08:59:39.037114 | 21b52f13-431a-4428-940d-8c7528439250 ==============================
+[0m08:59:39.037114 [info ] [MainThread]: Running with dbt=1.7.4
+[0m08:59:39.040052 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\CHIMURA\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:00:16.898599 [debug] [MainThread]: Starter project path: C:\Users\CHIMURA\AppData\Local\miniconda3\envs\dbt_env\lib\site-packages\dbt\include\starter_project
+[0m09:00:17.048501 [info ] [MainThread]: 
+Your new dbt project "oms_dbt_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:00:17.052649 [info ] [MainThread]: Setting up your profile.
+[0m09:12:23.092806 [info ] [MainThread]: Profile oms_dbt_proj written to C:\Users\CHIMURA\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:12:23.097954 [debug] [MainThread]: Command `dbt init` succeeded at 09:12:23.097461 after 764.16 seconds
+[0m09:12:23.099311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC5AC4B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC91627F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BC9162730>]}
+[0m09:12:23.101264 [debug] [MainThread]: Flushing usage events
+[0m09:12:23.756033 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m09:13:22.218910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022018D55370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201BC383A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201BC38100>]}
+
+
+============================== 09:13:22.225440 | fd2afe2c-1395-4fc5-944f-bc2dfe17bfe6 ==============================
+[0m09:13:22.225440 [info ] [MainThread]: Running with dbt=1.7.4
+[0m09:13:22.226438 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\CHIMURA\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m09:13:22.228470 [info ] [MainThread]: dbt version: 1.7.4
+[0m09:13:22.229439 [info ] [MainThread]: python version: 3.9.18
+[0m09:13:22.230443 [info ] [MainThread]: python path: C:\Users\CHIMURA\AppData\Local\miniconda3\envs\dbt_env\python.exe
+[0m09:13:22.232439 [info ] [MainThread]: os info: Windows-10-10.0.19044-SP0
+[0m09:13:22.779903 [info ] [MainThread]: Using profiles dir at C:\Users\CHIMURA\.dbt
+[0m09:13:22.781904 [info ] [MainThread]: Using profiles.yml file at C:\Users\CHIMURA\.dbt\profiles.yml
+[0m09:13:22.783907 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\CHIMURA\Desktop\DataEngineering\DBT\dbt_project.yml
+[0m09:13:22.787661 [info ] [MainThread]: adapter type: snowflake
+[0m09:13:22.789626 [info ] [MainThread]: adapter version: 1.7.1
+[0m09:13:22.791151 [info ] [MainThread]: Configuration:
+[0m09:13:22.792150 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:13:22.794651 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:13:22.797744 [info ] [MainThread]: Required dependencies:
+[0m09:13:22.799742 [debug] [MainThread]: Executing "git --help"
+[0m09:13:22.812924 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m09:13:22.816085 [info ] [MainThread]: Connection:
+[0m09:13:22.818240 [info ] [MainThread]:   account: chinmai_dbt
+[0m09:13:22.820234 [info ] [MainThread]:   user: Chinmai
+[0m09:13:22.821495 [info ] [MainThread]:   database: chinmai_oms
+[0m09:13:22.822947 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m09:13:22.824951 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m09:13:22.826945 [info ] [MainThread]:   schema: L3_CONSUMPTION
+[0m09:13:22.827945 [info ] [MainThread]:   authenticator: None
+[0m09:13:22.828946 [info ] [MainThread]:   private_key_path: None
+[0m09:13:22.831009 [info ] [MainThread]:   token: None
+[0m09:13:22.833751 [info ] [MainThread]:   oauth_client_id: None
+[0m09:13:22.834768 [info ] [MainThread]:   query_tag: None
+[0m09:13:22.836769 [info ] [MainThread]:   client_session_keep_alive: False
+[0m09:13:22.837772 [info ] [MainThread]:   host: None
+[0m09:13:22.839073 [info ] [MainThread]:   port: None
+[0m09:13:22.840285 [info ] [MainThread]:   proxy_host: None
+[0m09:13:22.841285 [info ] [MainThread]:   proxy_port: None
+[0m09:13:22.843312 [info ] [MainThread]:   protocol: None
+[0m09:13:22.844568 [info ] [MainThread]:   connect_retries: 1
+[0m09:13:22.846581 [info ] [MainThread]:   connect_timeout: None
+[0m09:13:22.848361 [info ] [MainThread]:   retry_on_database_errors: False
+[0m09:13:22.850293 [info ] [MainThread]:   retry_all: False
+[0m09:13:22.852305 [info ] [MainThread]:   insecure_mode: False
+[0m09:13:22.853792 [info ] [MainThread]:   reuse_connections: None
+[0m09:13:22.857599 [info ] [MainThread]: Registered adapter: snowflake=1.7.1
+[0m09:13:22.859598 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m09:13:22.861616 [debug] [MainThread]: Using snowflake connection "debug"
+[0m09:13:22.861616 [debug] [MainThread]: On debug: select 1 as id
+[0m09:13:22.863775 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:13:25.728742 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m09:13:25.730891 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m09:13:25.730891 [debug] [MainThread]: On debug: No close available on handle
+[0m09:13:25.732252 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m09:13:25.735084 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m09:13:25.736145 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\CHIMURA\Desktop\DataEngineering\DBT\dbt_project.yml> not found
+
+[0m09:13:25.737607 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m09:13:25.740114 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m09:13:25.742918 [debug] [MainThread]: Command `dbt debug` failed at 09:13:25.742918 after 3.63 seconds
+[0m09:13:25.744183 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:13:25.745843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022018D55370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201C450850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002201C4502E0>]}
+[0m09:13:25.746905 [debug] [MainThread]: Flushing usage events
+[0m09:13:26.405936 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
